@@ -1,0 +1,26 @@
+header {
+  background-color: var(--background);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+header li {
+  text-align: right;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.3s ease-in-out;
+}
+
+header li:hover {
+  transform: translateX(-10px);
+}
+
+.logo {
+  height: 80px;
+}

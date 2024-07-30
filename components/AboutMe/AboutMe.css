@@ -1,0 +1,61 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  padding-bottom: 100px;
+}
+
+.aboutme > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.aboutme > p {
+  max-width: 700px;
+  text-align: center;
+}
+
+.aboutme > h2 {
+  text-align: center;
+}
+
+.aboutme > ul {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutme li {
+  padding: 2px 8px;
+  background-color: var(--button);
+  border-radius: 1rem;
+  color: var(--background);
+}
+
+.aboutme > a {
+  padding: 8px 16px;
+  background-color: var(--background);
+  color: var(--footer);
+  border: solid 2px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+}
+
+.aboutme a:hover {
+  background-color: var(--footer);
+  color: var(--background);
+}
+
+.tilt {
+  transform: rotate(10deg); /* Apply a slight tilt */
+}

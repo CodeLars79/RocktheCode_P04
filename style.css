@@ -1,0 +1,63 @@
+/* main style */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* handwritten style */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+:root {
+  --background: #eeeeee;
+  --heading: #2f3645;
+  --body: #2f3645;
+  --button: #667bc6;
+  --footer: #da7297;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--body);
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+a,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  color: var(--body);
+  font-family: 'Playwrite DK Loopet', cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  min-height: 100%;
+}
