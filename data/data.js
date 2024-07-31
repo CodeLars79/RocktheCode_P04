@@ -61,7 +61,7 @@ const data = {
       title: 'Photo App',
       description:
         'The Photozy project focuses on using asynchronous code. All the displayed data is retrieved from an opensource API and showcased through free search. It is an interactive application developed with Vite using HTML, CSS and JavaScript.',
-      link: 'http://github.com/#',
+      link: 'https://03-async.netlify.app',
       preview: './assets/P03.jpg'
     }
   ]

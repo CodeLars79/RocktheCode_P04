@@ -57,5 +57,5 @@
 }
 
 .tilt {
-  transform: rotate(10deg); /* Apply a slight tilt */
+  transform: rotate(10deg); 
 }
