@@ -72,6 +72,13 @@ const data = {
         'The Photozy project focuses on using asynchronous code. All the displayed data is retrieved from an opensource API and showcased through free search. It is an interactive application developed with Vite using HTML, CSS and JavaScript.',
       link: 'https://03-async.netlify.app',
       preview: './assets/P03.jpg'
+    },
+    {
+      title: 'Game Hub',
+      description:
+        'As a lifelong Star Wars fan, this personal project is a mini game hub featuring three well-known games, all reimagined with simple and cool Star Wars-themed graphics. Developed with Vite using HTML, CSS, and JavaScript. May the Force be with you.',
+      link: 'https://05-gamehub.netlify.app',
+      preview: './assets/P05.jpg'
     }
   ]
 }
