@@ -30,7 +30,7 @@ const data = {
       startDate: '2024',
       endDate: 'Present',
       description:
-        'Driven by a passion for digital design, I am dedicated to bridging the gap between physical architecture and the digital realm. Embarking on a steady journey towards tech, hopefully crafting solutions that inspire and engage.'
+        'Driven by a passion for digital design, I am dedicated to bridging the gap between the physical architecture and the digital realm. Embarking on a steady journey towards tech, hopefully crafting solutions that inspire and engage.'
     },
     {
       position: 'Architect',
@@ -38,10 +38,19 @@ const data = {
       startDate: '2007',
       endDate: 'Present',
       description:
-        'As an architect with expertise across all stages of the building process, I have been focusing on project detailing and pioneering building envelope solutions. I have lead teams from initial sketches through to completed projects. I am known for my collaborative spirit, flexibility, and commitment to continuous growth and learning.'
+        'As an architect with expertise across all stages of the building process, I have lead teams from initial sketches through to completed projects. I am known for my collaborative spirit, flexibility, and commitment to continuous growth and learning.'
     }
   ],
-  skills: ['HTML5', 'CSS3', 'JavaScript', 'Git', 'VS Code', 'Sass'],
+  skills: [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Git',
+    'VS Code',
+    'Sass',
+    'Figma',
+    'Node.js'
+  ],
   projects: [
     {
       title: 'E-commerce Website',
