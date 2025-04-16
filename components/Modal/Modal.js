@@ -14,6 +14,7 @@ export const Modal = () => {
             <button type="submit">Send</button>
           </div>
         </form>
+        <div id="toast" class="toast hidden"></div>
       </div>
     </div>
   `
@@ -24,6 +25,15 @@ export const addModalListeners = () => {
   const openBtn = document.getElementById('openModalBtn')
   const closeBtn = modal.querySelector('.close-button')
   const form = modal.querySelector('#contactForm')
+  const toast = modal.querySelector('#toast')
+
+  const showToast = (message, type = 'success') => {
+    toast.textContent = message
+    toast.className = `toast show ${type}`
+    setTimeout(() => {
+      toast.classList.remove('show')
+    }, 3000)
+  }
 
   openBtn.addEventListener('click', () => {
     modal.classList.remove('hidden')
@@ -51,14 +61,16 @@ export const addModalListeners = () => {
       )
 
       if (response.ok) {
-        alert('Thanks! Your message was sent.')
+        showToast('Thanks! Your message was sent.', 'success')
         form.reset()
-        modal.classList.add('hidden')
+        setTimeout(() => {
+          modal.classList.add('hidden')
+        }, 4000)
       } else {
-        alert('Oops! Something went wrong.')
+        showToast('Oops! Something went wrong.', 'error')
       }
     } catch (error) {
-      alert('Error sending the message. Please try again.')
+      showToast('Error sending the message. Please try again.', 'error')
     }
   })
 
