@@ -40,7 +40,7 @@
   color: var(--background);
 }
 
-.aboutme > a {
+#openModalBtn {
   padding: 8px 16px;
   background-color: var(--background);
   color: var(--footer);
@@ -51,11 +51,11 @@
     transform 0.3s ease-in-out;
 }
 
-.aboutme a:hover {
+#openModalBtn:hover {
   background-color: var(--footer);
   color: var(--background);
 }
 
 .tilt {
-  transform: rotate(10deg); 
+  transform: rotate(10deg);
 }

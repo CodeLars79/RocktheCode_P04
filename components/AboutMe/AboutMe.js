@@ -1,23 +1,20 @@
 import data from '../../data/data'
 import './AboutMe.css'
+import { Modal } from '../Modal/Modal'
+import { addModalListeners } from '../Modal/Modal'
 
 const template = () => {
   return `
     <section class="aboutme" id="aboutme">
       <h2>Hi, I'm Lars. </br>Great to meet you!</h2>
-      <img class="avatar" src=${data.avatar} alt=${data.name}/>
+      <img class="avatar" src=${data.avatar} alt=${data.name} />
       <ul>
-      ${data.skills
-        .map(
-          (skill) => `<li>
-      <p>${skill}</p>
-      </li>`
-        )
-        .join('')}
-    </ul>
+        ${data.skills.map((skill) => `<li><p>${skill}</p></li>`).join('')}
+      </ul>
       <p>${data.aboutMe}</p>
       <p>${data.address}</p>
-      <a href=${`mailto:${data.email}`}>Say Hello!</a>
+      <button id="openModalBtn">Say Hello!</button>
+      ${Modal()}
     </section>
   `
 }
@@ -40,4 +37,6 @@ export const addAboutListeners = () => {
       e.target.classList.remove('tilt')
     }, 700)
   })
+
+  addModalListeners()
 }

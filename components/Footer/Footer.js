@@ -11,7 +11,7 @@ const template = () => {
           <a href="https://github.com/CodeLars79" target="_blank"><img src="./assets/github.svg" alt="github"></a>
           <a href="https://www.linkedin.com/in/lars-bcn/" target="_blank"><img src="./assets/linkedin.svg" alt="linkedin"></a>
         </li>
-        <li><p>2024 ©️ Lars Sørensen</p></li>
+        <li><p>2025 Ⓒ Lars Sørensen</p></li>
       </ul>
     </footer>
   `

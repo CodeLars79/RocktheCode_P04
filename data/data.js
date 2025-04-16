@@ -4,15 +4,19 @@ const data = {
   email: 'laaars79@yahoo.dk',
   avatar: './assets/avatar.jpg',
   aboutMe:
-    "As a dedicated designer, web developer, and architect, I bring a unique blend of skills and experiences to every project. I hold a Master's degree in Architecture and soon a Web Development Certification. My goal is to create elegantly simple designs and innovative digital experiences. With a quiet confidence, an innate curiosity, and a commitment to continual improvement, I strive to push the boundaries of design and technology. <br><br>Born and raised in Denmark. Based in Barcelona (ES) for the past 15+ years.<br>Fluent in Danish, English and Spanish.<br>I'm a family guy, I enjoy making my own pizza and love a good documentary.",
+    "As a dedicated designer, web developer, and architect, I bring a unique blend of skills and experiences to every project. I hold a Master's degree in Architecture and a Web Development Certification. My goal is to create elegantly simple designs and innovative digital experiences. With a quiet confidence, an innate curiosity, and a commitment to continual improvement, I strive to push the boundaries of design and technology. <br><br>Born and raised in Denmark. Based in Barcelona (ES) for the past 15+ years.<br>Fluent in Danish, English and Spanish.<br>I'm a family guy, I enjoy making my own pizza and love a good documentary.",
 
   education: [
     {
       degree: 'Full Stack Developer',
       university: 'Rock the Code (ES)',
-      graduationYear: 'Ongoing',
+      graduationYear: 2025,
       honors: '',
-      relevantCourses: ['Web Development Fundamentals', 'Frontend Development']
+      relevantCourses: [
+        'Web Development Fundamentals',
+        'Frontend Development',
+        'Backend Development'
+      ]
     },
     {
       degree: 'Master of Architecture (M.Arch)',
@@ -45,11 +49,10 @@ const data = {
     'HTML5',
     'CSS3',
     'JavaScript',
-    'Git',
-    'VS Code',
-    'Sass',
-    'Figma',
-    'Node.js'
+    'React',
+    'Node.js',
+    'Express.js',
+    'MongoDB'
   ],
   projects: [
     {
